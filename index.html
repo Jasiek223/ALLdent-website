@@ -9,11 +9,11 @@
             font-family: 'Playfair Display', serif;
             margin: 0;
             padding: 0;
-            background-color: #1a237e;
+            background-color: #0d1b47;
             color: #fbc02d;
         }
         header {
-            background-color: #283593;
+            background-color: #1a237e;
             color: #fbc02d;
             padding: 20px;
             text-align: center;
@@ -21,10 +21,15 @@
             font-weight: bold;
             font-family: 'Playfair Display', serif;
         }
+        header p {
+            font-size: 0.8em;
+            margin: 0;
+            font-style: italic;
+        }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #3949ab;
+            background-color: #283593;
         }
         nav a {
             color: #fbc02d;
@@ -34,7 +39,7 @@
             font-weight: bold;
         }
         nav a:hover {
-            background-color: #303f9f;
+            background-color: #1a237e;
             color: #fff;
         }
         .content {
@@ -53,7 +58,8 @@
         }
         .images {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
             gap: 20px;
         }
         .images img {
@@ -64,8 +70,14 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #283593;
+            background-color: #1a237e;
             color: #fbc02d;
+        }
+        .icon {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -74,6 +86,7 @@
 
 <header>
     <h1>ALLdent - Gabinet Stomatologiczny</h1>
+    <p>lek. dent. Aleksandra Wołoszyn</p>
 </header>
 
 <nav>
@@ -103,7 +116,12 @@
         <li>Protetyka</li>
         <li>Chirurgia stomatologiczna</li>
         <li>Endodoncja (leczenie kanałowe pod mikroskopem)</li>
+        <li>Zakładanie aparatów ortodontycznych</li>
+        <li>Estetyczna odbudowa zębów</li>
     </ul>
+    <div class="images">
+        <img src="images/tooth_icon.png" alt="Ikona zęba" class="icon">
+    </div>
 </section>
 
 <section id="cennik" class="section">
@@ -114,6 +132,8 @@
         <li>Leczenie kanałowe - od 500 zł</li>
         <li>Wybielanie zębów - 700 zł</li>
         <li>Konsultacja stomatologiczna - 100 zł</li>
+        <li>Założenie aparatu ortodontycznego - od 1500 zł</li>
+        <li>Usunięcie zęba - 300 zł</li>
     </ul>
 </section>
 
@@ -153,7 +173,8 @@
 <section id="portfolio" class="section">
     <h2>Portfolio</h2>
     <div class="images">
-        <img src="images/473239452_9013044472108381_3888247774683364814_n.jpg" alt="Portfolio Zdjęcie">
+        <img src="images/473239452_9013044472108381_3888247774683364814_n.jpg" alt="Portfolio Zdjęcie 1">
+        <img src="images/474579250_3977941822452917_4215595333840016764_n.jpg" alt="Portfolio Zdjęcie 2">
     </div>
     <p>Wykonywanie piaskowania, odkamieniania i szorowania pupci.</p>
 </section>
