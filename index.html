@@ -6,46 +6,48 @@
     <title>ALLdent - Gabinet Stomatologiczny</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Playfair Display', serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
+            background-color: #1a237e;
+            color: #fbc02d;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #283593;
+            color: #fbc02d;
             padding: 20px;
             text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            background-color: #3949ab;
         }
         nav a {
-            color: white;
+            color: #fbc02d;
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
+            font-weight: bold;
         }
         nav a:hover {
-            background-color: #575757;
+            background-color: #303f9f;
+            color: #fff;
         }
         .content {
             padding: 20px;
             text-align: center;
         }
-        .fairy {
-            margin-top: 20px;
-            width: 200px;
-        }
         .section {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin-bottom: 20px;
             border-radius: 8px;
         }
@@ -57,15 +59,16 @@
         .images img {
             width: 300px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #333;
-            color: white;
+            background-color: #283593;
+            color: #fbc02d;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -78,16 +81,12 @@
     <a href="#zabiegi">Zabiegi</a>
     <a href="#cennik">Cennik</a>
     <a href="#kontakt">Kontakt</a>
-    <a href="#kalendarz">Kalendarz - zapisy</a>
+    <a href="#kalendarz">Kalendarz</a>
+    <a href="#portfolio">Portfolio</a>
 </nav>
 
 <div class="content">
-    <img src="https://via.placeholder.com/200" alt="Wróżka Zębuszka" class="fairy">
     <p>Witamy na stronie gabinetu stomatologicznego <strong>ALLdent</strong>, gdzie zdrowie i piękny uśmiech są naszą misją!</p>
-    <div class="images">
-        <img src="images/474579250_3977941822452917_4215595333840016764_n.jpg" alt="Zdjęcie 1">
-        <img src="images/473239452_9013044472108381_3888247774683364814_n.jpg" alt="Zdjęcie 2">
-    </div>
 </div>
 
 <section id="o-nas" class="section">
@@ -123,11 +122,10 @@
     <p><strong>Adres:</strong> Parkowa 60a, Biłgoraj</p>
     <p><strong>Telefon:</strong> +48 123 456 789</p>
     <p><strong>Email:</strong> kontakt@alldent.pl</p>
-    <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Parkowa+60a,Bi%C5%82goraj" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 
 <section id="kalendarz" class="section">
-    <h2>Kalendarz - zapisy</h2>
+    <h2>Kalendarz</h2>
     <table style="width: 100%; border-collapse: collapse;">
         <tr>
             <th style="border: 1px solid #ddd; padding: 8px;">Data</th>
@@ -150,6 +148,14 @@
             <td style="border: 1px solid #ddd; padding: 8px;">Marek Wiśniewski</td>
         </tr>
     </table>
+</section>
+
+<section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <div class="images">
+        <img src="images/473239452_9013044472108381_3888247774683364814_n.jpg" alt="Portfolio Zdjęcie">
+    </div>
+    <p>Wykonywanie piaskowania, odkamieniania i szorowania pupci.</p>
 </section>
 
 <footer>
