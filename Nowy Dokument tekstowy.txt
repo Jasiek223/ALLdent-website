@@ -86,7 +86,7 @@
     <p>Witamy na stronie gabinetu stomatologicznego <strong>ALLdent</strong>, gdzie zdrowie i piękny uśmiech są naszą misją!</p>
     <div class="images">
         <img src="images/474579250_3977941822452917_4215595333840016764_n.jpg" alt="Zdjęcie 1">
-<img src="images/473239452_9013044472108381_3888247774683364814_n.jpg" alt="Zdjęcie 2">
+        <img src="images/473239452_9013044472108381_3888247774683364814_n.jpg" alt="Zdjęcie 2">
     </div>
 </div>
 
