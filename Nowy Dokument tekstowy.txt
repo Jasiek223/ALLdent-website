@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLdent - Gabinet Stomatologiczny</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .fairy {
+            margin-top: 20px;
+            width: 200px;
+        }
+        .section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .images img {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ALLdent - Gabinet Stomatologiczny</h1>
+</header>
+
+<nav>
+    <a href="#o-nas">O nas</a>
+    <a href="#zabiegi">Zabiegi</a>
+    <a href="#cennik">Cennik</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="#kalendarz">Kalendarz - zapisy</a>
+</nav>
+
+<div class="content">
+    <img src="https://via.placeholder.com/200" alt="Wróżka Zębuszka" class="fairy">
+    <p>Witamy na stronie gabinetu stomatologicznego <strong>ALLdent</strong>, gdzie zdrowie i piękny uśmiech są naszą misją!</p>
+    <div class="images">
+        <img src="images/474579250_3977941822452917_4215595333840016764_n.jpg" alt="Zdjęcie 1">
+<img src="images/473239452_9013044472108381_3888247774683364814_n.jpg" alt="Zdjęcie 2">
+    </div>
+</div>
+
+<section id="o-nas" class="section">
+    <h2>O nas</h2>
+    <p>Gabinet stomatologiczny <strong>ALLdent</strong> został założony przez lek. dent. Aleksandrę Wołoszyn, absolwentkę Uniwersytetu Medycznego w Lublinie, rocznik 2024. Nasz zespół zapewnia profesjonalne i komfortowe leczenie w przyjaznej atmosferze.</p>
+</section>
+
+<section id="zabiegi" class="section">
+    <h2>Zabiegi</h2>
+    <ul>
+        <li>Profilaktyka stomatologiczna (skaling, piaskowanie, fluoryzacja)</li>
+        <li>Leczenie zachowawcze zębów</li>
+        <li>Wybielanie zębów</li>
+        <li>Protetyka</li>
+        <li>Chirurgia stomatologiczna</li>
+        <li>Endodoncja (leczenie kanałowe pod mikroskopem)</li>
+    </ul>
+</section>
+
+<section id="cennik" class="section">
+    <h2>Cennik</h2>
+    <ul>
+        <li>Skaling i piaskowanie - 200 zł</li>
+        <li>Wypełnienie światłoutwardzalne - od 150 zł</li>
+        <li>Leczenie kanałowe - od 500 zł</li>
+        <li>Wybielanie zębów - 700 zł</li>
+        <li>Konsultacja stomatologiczna - 100 zł</li>
+    </ul>
+</section>
+
+<section id="kontakt" class="section">
+    <h2>Kontakt</h2>
+    <p><strong>Adres:</strong> Parkowa 60a, Biłgoraj</p>
+    <p><strong>Telefon:</strong> +48 123 456 789</p>
+    <p><strong>Email:</strong> kontakt@alldent.pl</p>
+    <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Parkowa+60a,Bi%C5%82goraj" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section id="kalendarz" class="section">
+    <h2>Kalendarz - zapisy</h2>
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Data</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Godzina</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Pacjent</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">24.01.2025</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">10:00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Jan Kowalski</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">24.01.2025</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">12:00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Anna Nowak</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">25.01.2025</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">09:00</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Marek Wiśniewski</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>&copy; 2025 ALLdent - Gabinet Stomatologiczny. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
